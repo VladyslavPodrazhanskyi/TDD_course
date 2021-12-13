@@ -1,13 +1,12 @@
-
 from FizzBuzz import fizzbuzz
 
 
-# def test_canAssertTrue():
-#     assert True
+def test_canAssertTrue():
+    assert True
 
 
-# def test_canCallFizzBuzz():
-#     FizzBuzz(1)
+def test_canCallFizzBuzz():
+    fizzbuzz(1)
 
 
 #  utility function for tests
@@ -42,9 +41,3 @@ def test_return_buzz_with10_passedin():
 
 def test_return_fizzbuzz_with15_passedin():
     check_fizz_buzz(15, "FizzBuzz")
-
-
-
-
-
-
